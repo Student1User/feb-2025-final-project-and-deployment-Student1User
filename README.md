@@ -4,12 +4,13 @@
 
 ---
 
-```markdown
+``markdown
 # 💻 TechBlog - Modern Technology Blog Website
 
 TechBlog is a fully responsive, multi-page blog website built with HTML5, CSS3, and JavaScript. It focuses on delivering high-quality content related to technology, programming, and digital trends. The site is designed with modern UI/UX principles and optimized for performance, accessibility, and mobile-first experiences.
 
-![image](https://github.com/user-attachments/assets/61700c31-f8da-4536-a9fc-1094623ea08b)
+![image](https://github.com/user-attachments/assets/645e76e1-93a4-4366-9cda-c3f78e83ef0c)
+
 
 ## 📁 Project Structure
 
