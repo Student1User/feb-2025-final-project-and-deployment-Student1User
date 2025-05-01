@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBlog - Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Tech<span>Blog</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" class="active">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Blog Posts</h2>
+            <p>Explore our latest articles and insights</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="blog-posts">
+            <div class="container">
+                <div class="blog-container">
+                    <div class="posts-grid">
+                        <!-- Posts will be dynamically loaded here -->
+                    </div>
+                    <aside class="sidebar">
+                        <div class="sidebar-widget">
+                            <h3>Categories</h3>
+                            <ul class="categories">
+                                <li><a href="#" data-category="all">All Categories</a></li>
+                                <li><a href="#" data-category="Web Development">Web Development</a></li>
+                                <li><a href="#" data-category="Artificial Intelligence">Artificial Intelligence</a></li>
+                                <li><a href="#" data-category="Cybersecurity">Cybersecurity</a></li>
+                                <li><a href="#" data-category="Mobile Development">Mobile Development</a></li>
+                                <li><a href="#" data-category="Data Science">Data Science</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-widget">
+                            <h3>Recent Posts</h3>
+                            <ul class="recent-posts">
+                                <li>
+                                    <a href="post.html?id=1">Top Web Development Trends in 2025</a>
+                                    <span>May 1, 2025</span>
+                                </li>
+                                <li>
+                                    <a href="post.html?id=2">How AI is Transforming Everyday Life</a>
+                                    <span>April 28, 2025</span>
+                                </li>
+                                <li>
+                                    <a href="post.html?id=3">Essential Cybersecurity Practices for 2025</a>
+                                    <span>April 25, 2025</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-widget">
+                            <h3>Search</h3>
+                            <form id="search-form">
+                                <div class="form-group">
+                                    <input type="text" id="search-input" placeholder="Search articles...">
+                                    <button type="submit" title="Search"><i class="fas fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </aside>
+                </div>
+                <div class="pagination">
+                    <button id="load-more" class="btn">Load More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Tech<span>Blog</span></h2>
+                    <p>Your source for the latest in technology, programming, and digital trends.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://x.com/EmmanuelMJesse" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/share/1BQ7ZMZJAz/" title="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/creative_hubk?igsh=N3BvbjB2czlxbDBn" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/emmanuel-magachi-jesse-385011298/" title="Connect with us on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechBlog. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+    <script src="js/particles.js"></script>
+</body>
+</html>
