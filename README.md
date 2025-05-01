@@ -57,7 +57,7 @@ BLOG-WEBSITE/
 ## 🚀 Deployment
 
 This project is deployed on **Netlify**  
-🔗 [View Live Site](https://your-netlify-site-link.netlify.app) *(Replace with your actual URL)*
+🔗 [View Live Site](https://blog-website-tech1.netlify.app/) 
 
 ## 🛠️ How to Use
 
