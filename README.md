@@ -2,7 +2,8 @@
 
 # TechBlog - Modern Technology Blog Website
 
-![TechBlog Screenshot](https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+![image](https://github.com/user-attachments/assets/e5d49c0e-a530-46c5-af4f-070989f0a178)
+
 
 ## Overview
 
